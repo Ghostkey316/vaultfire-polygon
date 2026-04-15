@@ -1,0 +1,25 @@
+{
+  "chain": "Polygon PoS",
+  "chainId": 137,
+  "status": "pre-deployment",
+  "deployer": "0xA054f831B562e729F8D268291EBde1B2EDcFb84F",
+  "contracts": {
+    "USDC": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+    "ERC8004IdentityRegistry": "DEPLOY_PENDING",
+    "AIPartnershipBondsV2": "DEPLOY_PENDING",
+    "AIAccountabilityBondsV2": "DEPLOY_PENDING",
+    "ERC8004ReputationRegistry": "DEPLOY_PENDING",
+    "ERC8004ValidationRegistry": "DEPLOY_PENDING",
+    "VaultfireERC8004Adapter": "DEPLOY_PENDING",
+    "VaultfireNameService": "DEPLOY_PENDING",
+    "FlourishingMetricsOracle": "DEPLOY_PENDING",
+    "MultisigGovernance": "DEPLOY_PENDING",
+    "VaultfireTeleporterBridge": "DEPLOY_PENDING",
+    "DilithiumAttestor": "DEPLOY_PENDING",
+    "ProductionBeliefAttestationVerifier": "DEPLOY_PENDING",
+    "BeliefAttestationVerifier": "DEPLOY_PENDING",
+    "MissionEnforcement": "DEPLOY_PENDING",
+    "AntiSurveillance": "DEPLOY_PENDING",
+    "PrivacyGuarantees": "DEPLOY_PENDING"
+  }
+}

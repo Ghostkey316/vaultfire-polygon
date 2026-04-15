@@ -1,0 +1,66 @@
+{
+  "name": "@vaultfire/polygon",
+  "version": "1.0.0",
+  "description": "Vaultfire Protocol on Polygon PoS — AI agent trust, accountability bonds, and belief-weighted governance",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/",
+    "contracts/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:check": "tsc --noEmit",
+    "prepare": "npm run build",
+    "test": "node --test tests/polygon.test.ts",
+    "test:ts": "tsx --test tests/polygon.test.ts",
+    "clean": "rm -rf dist/",
+    "verify": "python3 scripts/verify_contracts.py",
+    "verify:json": "python3 scripts/verify_contracts.py --json"
+  },
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ghostkey316/vaultfire-polygon"
+  },
+  "author": "Ghostkey316",
+  "license": "MIT",
+  "keywords": [
+    "vaultfire",
+    "polygon",
+    "ai-trust",
+    "agent",
+    "blockchain",
+    "accountability",
+    "know-your-agent",
+    "kya",
+    "erc-8004",
+    "bonds",
+    "reputation",
+    "web3",
+    "pol",
+    "matic",
+    "defi",
+    "belief-weighted-governance"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
