@@ -2,7 +2,7 @@
 
 **AI trust infrastructure. On-chain accountability. The first belief-weighted governance on Polygon.**
 
-[![Pre-Deployment](https://img.shields.io/badge/status-pre--deployment-orange)](https://github.com/Ghostkey316/vaultfire-polygon)
+[![Deployed](https://img.shields.io/badge/status-deployed-brightgreen)](https://github.com/Ghostkey316/vaultfire-polygon)
 [![Polygon PoS](https://img.shields.io/badge/chain-Polygon%20PoS-8247e5)](https://polygonscan.com)
 [![Chain ID](https://img.shields.io/badge/chain%20id-137-8247e5)](https://polygonscan.com)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -35,23 +35,23 @@ Vaultfire is not surveillance infrastructure. It is **accountability infrastruct
 
 | Feature | Status |
 |---|---|
-| ERC-8004 Agent Identity Registry | Pre-Deployment |
-| AI Partnership Bonds V2 | Pre-Deployment |
-| AI Accountability Bonds V2 | Pre-Deployment |
-| ERC-8004 Reputation Registry (Street Cred) | Pre-Deployment |
-| ERC-8004 Validation Registry | Pre-Deployment |
-| Vaultfire ERC-8004 Adapter | Pre-Deployment |
-| Vaultfire Name Service (VNS) | Pre-Deployment |
-| Flourishing Metrics Oracle | Pre-Deployment |
-| Multisig Governance | Pre-Deployment |
-| Vaultfire Teleporter Bridge | Pre-Deployment |
-| Dilithium Attestor (post-quantum) | Pre-Deployment |
-| Production Belief Attestation Verifier | Pre-Deployment |
-| Belief Attestation Verifier | Pre-Deployment |
-| Mission Enforcement | Pre-Deployment |
-| Anti-Surveillance Module | Pre-Deployment |
-| Privacy Guarantees | Pre-Deployment |
-| x402 Micropayment Support (USDC) | Pre-Deployment |
+| ERC-8004 Agent Identity Registry | Deployed |
+| AI Partnership Bonds V2 | Deployed |
+| AI Accountability Bonds V2 | Deployed |
+| ERC-8004 Reputation Registry (Street Cred) | Deployed |
+| ERC-8004 Validation Registry | Deployed |
+| Vaultfire ERC-8004 Adapter | Deployed |
+| Vaultfire Name Service (VNS) | Deployed |
+| Flourishing Metrics Oracle | Deployed |
+| Multisig Governance | Deployed |
+| Vaultfire Teleporter Bridge | Deployed |
+| Dilithium Attestor (post-quantum) | Deployed |
+| Production Belief Attestation Verifier | Deployed |
+| Belief Attestation Verifier | Deployed |
+| Mission Enforcement | Deployed |
+| Anti-Surveillance Module | Deployed |
+| Privacy Guarantees | Deployed |
+| x402 Micropayment Support (USDC) | Deployed |
 
 ---
 
@@ -88,25 +88,27 @@ Gas on Polygon PoS is paid in **POL** (formerly MATIC, rebranded Q3 2024).
 
 ## Contract Addresses — Polygon PoS (Chain ID: 137)
 
+16 contracts deployed and verified on Polygon PoS.
+
 | Contract | Address |
 |---|---|
-| USDC (Circle native) | [`0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`](https://polygonscan.com/token/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359) |
-| ERC8004IdentityRegistry | `DEPLOY_PENDING` |
-| AIPartnershipBondsV2 | `DEPLOY_PENDING` |
-| AIAccountabilityBondsV2 | `DEPLOY_PENDING` |
-| ERC8004ReputationRegistry | `DEPLOY_PENDING` |
-| ERC8004ValidationRegistry | `DEPLOY_PENDING` |
-| VaultfireERC8004Adapter | `DEPLOY_PENDING` |
-| VaultfireNameService | `DEPLOY_PENDING` |
-| FlourishingMetricsOracle | `DEPLOY_PENDING` |
-| MultisigGovernance | `DEPLOY_PENDING` |
-| VaultfireTeleporterBridge | `DEPLOY_PENDING` |
-| DilithiumAttestor | `DEPLOY_PENDING` |
-| ProductionBeliefAttestationVerifier | `DEPLOY_PENDING` |
-| BeliefAttestationVerifier | `DEPLOY_PENDING` |
-| MissionEnforcement | `DEPLOY_PENDING` |
-| AntiSurveillance | `DEPLOY_PENDING` |
-| PrivacyGuarantees | `DEPLOY_PENDING` |
+| USDC (Circle native) | [`0x3c499...3359`](https://polygonscan.com/token/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359) |
+| ERC8004IdentityRegistry | [`0x6298c...D5F1`](https://polygonscan.com/address/0x6298c62FDA57276DC60de9E716fbBAc23d06D5F1) |
+| AIPartnershipBondsV2 | [`0x0E777...Da58`](https://polygonscan.com/address/0x0E777878C5b5248E1b52b09Ab5cdEb2eD6e7Da58) |
+| AIAccountabilityBondsV2 | [`0xfDdd2...63D2`](https://polygonscan.com/address/0xfDdd2B1597c87577543176AB7f49D587876563D2) |
+| ERC8004ReputationRegistry | [`0x8aceF...2218`](https://polygonscan.com/address/0x8aceF0Bc7e07B2dE35E9069663953f41B5422218) |
+| ERC8004ValidationRegistry | [`0x1A80F...D3C`](https://polygonscan.com/address/0x1A80F77e12f1bd04538027aed6d056f5DCcDCD3C) |
+| VaultfireERC8004Adapter | [`0x6135...f155`](https://polygonscan.com/address/0x613585B786af2d5ecb1c3e712CE5ffFB8f53f155) |
+| VaultfireNameService | [`0x247F3...99cd`](https://polygonscan.com/address/0x247F31bB2b5a0d28E68bf24865AA242965FF99cd) |
+| FlourishingMetricsOracle | [`0x630C4...2E7`](https://polygonscan.com/address/0x630C43F763a332793C421C788B8b1CCC5A3122E7) |
+| MultisigGovernance | [`0x889f5...D9A4`](https://polygonscan.com/address/0x889f5cfb142Bb6E72CB0C633800324C335eED9A4) |
+| VaultfireTeleporterBridge | [`0xe2aDF...DA91`](https://polygonscan.com/address/0xe2aDfe84703dd6B5e421c306861Af18F962fDA91) |
+| DilithiumAttestor | [`0xc2F78...dB38`](https://polygonscan.com/address/0xc2F789d82ef55bAbb9Df38f61E606cD34628dB38) |
+| ProductionBeliefAttestationVerifier | [`0xe0B70...C760`](https://polygonscan.com/address/0xe0B709511438D0aCfD5D2d69F40b90C4c27eC760) |
+| BeliefAttestationVerifier | [`0xaEBD3...79e5`](https://polygonscan.com/address/0xaEBD3d62DF9bF5A5b99c289756c4cd203AC879e5) |
+| MissionEnforcement | [`0x6904...6F78`](https://polygonscan.com/address/0x690411685278548157409FA7AC8279A5B1Fb6F78) |
+| AntiSurveillance | [`0xcf64D...aDcB`](https://polygonscan.com/address/0xcf64D815F5424B7937aB226bC733Ed35ab6CaDcB) |
+| PrivacyGuarantees | [`0x2818...7380`](https://polygonscan.com/address/0x281814eF92062DA8049Fe5c4743c4Aef19a17380) |
 
 > Deployer: [`0xA054f831B562e729F8D268291EBde1B2EDcFb84F`](https://polygonscan.com/address/0xA054f831B562e729F8D268291EBde1B2EDcFb84F)
 
@@ -149,7 +151,6 @@ const client = new VaultfirePolygonClient({
   privateKey: process.env.PRIVATE_KEY as `0x${string}`,
 });
 
-// NOTE: Throws until ERC8004IdentityRegistry is deployed on Polygon PoS
 const result = await client.registerAgent({
   name: 'oracle-agent.vf',
   metadataUri: 'ipfs://QmYourMetadata',
@@ -349,7 +350,7 @@ This makes governance **epistemically honest** — not just economically rationa
 | Base | Live | [vaultfire-base](https://github.com/Ghostkey316/vaultfire-base) |
 | Avalanche | Live | [vaultfire-avalanche](https://github.com/Ghostkey316/vaultfire-avalanche) |
 | Arbitrum | Pre-Deployment | [vaultfire-arbitrum](https://github.com/Ghostkey316/vaultfire-arbitrum) |
-| Polygon PoS | Pre-Deployment | **This repo** |
+| Polygon PoS | Deployed | **This repo** |
 | Solana | Pre-Deployment | [vaultfire-solana](https://github.com/Ghostkey316/vaultfire-solana) |
 
 ---
@@ -438,7 +439,7 @@ python3 scripts/verify_contracts.py --address 0x3c499c542cEF5E3811e1192ce70d8cC0
 | `vaultfire-base` | Base deployment (LIVE) | [github.com/Ghostkey316/vaultfire-base](https://github.com/Ghostkey316/vaultfire-base) |
 | `vaultfire-avalanche` | Avalanche deployment (LIVE) | [github.com/Ghostkey316/vaultfire-avalanche](https://github.com/Ghostkey316/vaultfire-avalanche) |
 | `vaultfire-arbitrum` | Arbitrum deployment (Pre-Deployment) | [github.com/Ghostkey316/vaultfire-arbitrum](https://github.com/Ghostkey316/vaultfire-arbitrum) |
-| `vaultfire-polygon` | Polygon deployment (Pre-Deployment) | **This repo** |
+| `vaultfire-polygon` | Polygon deployment (Deployed) | **This repo** |
 | `vaultfire-solana` | Solana deployment (Pre-Deployment) | [github.com/Ghostkey316/vaultfire-solana](https://github.com/Ghostkey316/vaultfire-solana) |
 
 ---

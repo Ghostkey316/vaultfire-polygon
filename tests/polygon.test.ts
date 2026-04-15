@@ -111,68 +111,84 @@ describe('POLYGON_ADDRESSES', () => {
     assert.ok(isDeployed(POLYGON_ADDRESSES.USDC));
   });
 
-  it('ERC8004IdentityRegistry is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.ERC8004IdentityRegistry, 'DEPLOY_PENDING');
+  it('ERC8004IdentityRegistry is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.ERC8004IdentityRegistry, '0x6298c62FDA57276DC60de9E716fbBAc23d06D5F1');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.ERC8004IdentityRegistry));
   });
 
-  it('AIPartnershipBondsV2 is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.AIPartnershipBondsV2, 'DEPLOY_PENDING');
+  it('AIPartnershipBondsV2 is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.AIPartnershipBondsV2, '0x0E777878C5b5248E1b52b09Ab5cdEb2eD6e7Da58');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.AIPartnershipBondsV2));
   });
 
-  it('AIAccountabilityBondsV2 is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.AIAccountabilityBondsV2, 'DEPLOY_PENDING');
+  it('AIAccountabilityBondsV2 is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.AIAccountabilityBondsV2, '0xfDdd2B1597c87577543176AB7f49D587876563D2');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.AIAccountabilityBondsV2));
   });
 
-  it('ERC8004ReputationRegistry is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.ERC8004ReputationRegistry, 'DEPLOY_PENDING');
+  it('ERC8004ReputationRegistry is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.ERC8004ReputationRegistry, '0x8aceF0Bc7e07B2dE35E9069663953f41B5422218');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.ERC8004ReputationRegistry));
   });
 
-  it('ERC8004ValidationRegistry is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.ERC8004ValidationRegistry, 'DEPLOY_PENDING');
+  it('ERC8004ValidationRegistry is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.ERC8004ValidationRegistry, '0x1A80F77e12f1bd04538027aed6d056f5DCcDCD3C');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.ERC8004ValidationRegistry));
   });
 
-  it('VaultfireNameService is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.VaultfireNameService, 'DEPLOY_PENDING');
+  it('VaultfireNameService is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.VaultfireNameService, '0x247F31bB2b5a0d28E68bf24865AA242965FF99cd');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.VaultfireNameService));
   });
 
-  it('VaultfireERC8004Adapter is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.VaultfireERC8004Adapter, 'DEPLOY_PENDING');
+  it('VaultfireERC8004Adapter is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.VaultfireERC8004Adapter, '0x613585B786af2d5ecb1c3e712CE5ffFB8f53f155');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.VaultfireERC8004Adapter));
   });
 
-  it('FlourishingMetricsOracle is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.FlourishingMetricsOracle, 'DEPLOY_PENDING');
+  it('FlourishingMetricsOracle is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.FlourishingMetricsOracle, '0x630C43F763a332793C421C788B8b1CCC5A3122E7');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.FlourishingMetricsOracle));
   });
 
-  it('MultisigGovernance is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.MultisigGovernance, 'DEPLOY_PENDING');
+  it('MultisigGovernance is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.MultisigGovernance, '0x889f5cfb142Bb6E72CB0C633800324C335eED9A4');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.MultisigGovernance));
   });
 
-  it('VaultfireTeleporterBridge is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.VaultfireTeleporterBridge, 'DEPLOY_PENDING');
+  it('VaultfireTeleporterBridge is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.VaultfireTeleporterBridge, '0xe2aDfe84703dd6B5e421c306861Af18F962fDA91');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.VaultfireTeleporterBridge));
   });
 
-  it('DilithiumAttestor is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.DilithiumAttestor, 'DEPLOY_PENDING');
+  it('DilithiumAttestor is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.DilithiumAttestor, '0xc2F789d82ef55bAbb9Df38f61E606cD34628dB38');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.DilithiumAttestor));
   });
 
-  it('ProductionBeliefAttestationVerifier is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.ProductionBeliefAttestationVerifier, 'DEPLOY_PENDING');
+  it('ProductionBeliefAttestationVerifier is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.ProductionBeliefAttestationVerifier, '0xe0B709511438D0aCfD5D2d69F40b90C4c27eC760');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.ProductionBeliefAttestationVerifier));
   });
 
-  it('BeliefAttestationVerifier is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.BeliefAttestationVerifier, 'DEPLOY_PENDING');
+  it('BeliefAttestationVerifier is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.BeliefAttestationVerifier, '0xaEBD3d62DF9bF5A5b99c289756c4cd203AC879e5');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.BeliefAttestationVerifier));
   });
 
-  it('MissionEnforcement is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.MissionEnforcement, 'DEPLOY_PENDING');
+  it('MissionEnforcement is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.MissionEnforcement, '0x690411685278548157409FA7AC8279A5B1Fb6F78');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.MissionEnforcement));
   });
 
-  it('AntiSurveillance is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.AntiSurveillance, 'DEPLOY_PENDING');
+  it('AntiSurveillance is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.AntiSurveillance, '0xcf64D815F5424B7937aB226bC733Ed35ab6CaDcB');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.AntiSurveillance));
   });
 
-  it('PrivacyGuarantees is DEPLOY_PENDING', () => {
-    assert.equal(POLYGON_ADDRESSES.PrivacyGuarantees, 'DEPLOY_PENDING');
+  it('PrivacyGuarantees is deployed with correct address', () => {
+    assert.equal(POLYGON_ADDRESSES.PrivacyGuarantees, '0x281814eF92062DA8049Fe5c4743c4Aef19a17380');
+    assert.ok(isDeployed(POLYGON_ADDRESSES.PrivacyGuarantees));
   });
 });
 
@@ -503,12 +519,12 @@ describe('VaultfirePolygonClient', () => {
     assert.ok(status['USDC']?.deployed);
   });
 
-  it('getDeploymentStatus identifies Vaultfire contracts as not deployed', () => {
+  it('getDeploymentStatus identifies all Vaultfire contracts as deployed', () => {
     const client = new VaultfirePolygonClient();
     const status = client.getDeploymentStatus();
-    assert.ok(!status['ERC8004IdentityRegistry']?.deployed);
-    assert.ok(!status['AIPartnershipBondsV2']?.deployed);
-    assert.ok(!status['VaultfireNameService']?.deployed);
+    assert.ok(status['ERC8004IdentityRegistry']?.deployed);
+    assert.ok(status['AIPartnershipBondsV2']?.deployed);
+    assert.ok(status['VaultfireNameService']?.deployed);
   });
 
   it('getTxUrl returns polygonscan URL', () => {
@@ -517,35 +533,42 @@ describe('VaultfirePolygonClient', () => {
     assert.equal(url, 'https://polygonscan.com/tx/0xabc123');
   });
 
-  it('throws when trying to register agent with DEPLOY_PENDING contract', async () => {
+  it('registerAgent does not throw a DEPLOY_PENDING error (contracts are live)', async () => {
     const client = new VaultfirePolygonClient({
       privateKey: '0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80',
     });
-    await assert.rejects(
-      () => client.registerAgent({ name: 'test', metadataUri: 'ipfs://test' }),
-      (err: Error) => {
-        assert.ok(err.message.includes('DEPLOY_PENDING'));
-        return true;
-      }
-    );
+    // With live contracts, a network/RPC error is expected in a test environment,
+    // but NOT a DEPLOY_PENDING error.
+    try {
+      await client.registerAgent({ name: 'test', metadataUri: 'ipfs://test' });
+    } catch (err: unknown) {
+      assert.ok(err instanceof Error);
+      assert.ok(
+        !err.message.includes('DEPLOY_PENDING'),
+        `Should not throw DEPLOY_PENDING now that contracts are live. Got: ${err.message}`
+      );
+    }
   });
 
-  it('throws when creating partnership bond with DEPLOY_PENDING contract', async () => {
+  it('createPartnershipBond does not throw a DEPLOY_PENDING error (contracts are live)', async () => {
     const client = new VaultfirePolygonClient({
       privateKey: '0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80',
     });
-    await assert.rejects(
-      () =>
-        client.createPartnershipBond({
-          counterparty: '0x1234567890123456789012345678901234567890',
-          tier: BondTier.Bronze,
-          partnershipType: PartnershipType.Collaboration,
-        }),
-      (err: Error) => {
-        assert.ok(err.message.includes('DEPLOY_PENDING'));
-        return true;
-      }
-    );
+    // With live contracts, a network/RPC error is expected in a test environment,
+    // but NOT a DEPLOY_PENDING error.
+    try {
+      await client.createPartnershipBond({
+        counterparty: '0x1234567890123456789012345678901234567890',
+        tier: BondTier.Bronze,
+        partnershipType: PartnershipType.Collaboration,
+      });
+    } catch (err: unknown) {
+      assert.ok(err instanceof Error);
+      assert.ok(
+        !err.message.includes('DEPLOY_PENDING'),
+        `Should not throw DEPLOY_PENDING now that contracts are live. Got: ${err.message}`
+      );
+    }
   });
 
   it('computeStreetCredLocal is a static method returning correct score', () => {
@@ -559,11 +582,15 @@ describe('VaultfirePolygonClient', () => {
 
   it('throws when no wallet client and registerAgent is called', async () => {
     const client = new VaultfirePolygonClient(); // no private key
-    // Will throw for DEPLOY_PENDING first, but that's expected
+    // With live contracts, throws because no wallet client is configured
     await assert.rejects(
       () => client.registerAgent({ name: 'x', metadataUri: 'ipfs://x' }),
       (err: Error) => {
         assert.ok(err instanceof Error);
+        assert.ok(
+          !err.message.includes('DEPLOY_PENDING'),
+          'Should not throw DEPLOY_PENDING — contracts are live'
+        );
         return true;
       }
     );

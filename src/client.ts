@@ -2,7 +2,7 @@
  * @vaultfire/polygon — VaultfirePolygonClient
  *
  * Main client for interacting with the Vaultfire Protocol on Polygon PoS.
- * All on-chain methods will throw if the target contract is DEPLOY_PENDING.
+ * All 16 Vaultfire contracts are deployed and verified on Polygon PoS (Chain ID: 137).
  *
  * Gas is paid in POL (formerly MATIC, rebranded Q3 2024).
  */
@@ -138,7 +138,6 @@ export class VaultfirePolygonClient {
   /**
    * Register an AI agent identity on Polygon PoS via ERC-8004.
    *
-   * @throws {Error} If ERC8004IdentityRegistry is DEPLOY_PENDING
    * @throws {Error} If no wallet client is configured
    *
    * @example
@@ -191,7 +190,6 @@ export class VaultfirePolygonClient {
    * relationships. Collateral is locked in POL according to the chosen tier.
    *
    * @param params - Bond parameters including counterparty, tier, and type
-   * @throws {Error} If AIPartnershipBondsV2 is DEPLOY_PENDING
    *
    * @example
    * ```typescript
@@ -247,7 +245,6 @@ export class VaultfirePolygonClient {
    * is the financial backbone of trustworthy AI behavior.
    *
    * @param params - Bond parameters including beneficiary, tier, and commitment
-   * @throws {Error} If AIAccountabilityBondsV2 is DEPLOY_PENDING
    *
    * @example
    * ```typescript
@@ -306,8 +303,6 @@ export class VaultfirePolygonClient {
    * - Bond active (15 pts)
    * - Tier bonus (up to 20 pts)
    * - Multiple bonds (5 pts)
-   *
-   * @throws {Error} If ERC8004ReputationRegistry is DEPLOY_PENDING
    *
    * @example
    * ```typescript
@@ -374,8 +369,6 @@ export class VaultfirePolygonClient {
   /**
    * Look up a Vaultfire Name Service (.vf) name on Polygon PoS.
    *
-   * @throws {Error} If VaultfireNameService is DEPLOY_PENDING
-   *
    * @example
    * ```typescript
    * const record = await client.lookupVNS('oracle-agent.vf');
@@ -408,7 +401,6 @@ export class VaultfirePolygonClient {
   /**
    * Reverse-resolve an address to its .vf name on Polygon PoS.
    *
-   * @throws {Error} If VaultfireNameService is DEPLOY_PENDING
    */
   async resolveAddress(address: Address): Promise<string | null> {
     assertDeployed('VaultfireNameService', POLYGON_ADDRESSES.VaultfireNameService);
@@ -432,8 +424,6 @@ export class VaultfirePolygonClient {
    * permanently on-chain. Requires your own registered agent identity.
    *
    * @param params - Rating parameters including peer address, score (1-5), and category
-   * @throws {Error} If ERC8004ReputationRegistry is DEPLOY_PENDING
-   *
    * @example
    * ```typescript
    * const result = await client.ratePeer({
@@ -480,7 +470,6 @@ export class VaultfirePolygonClient {
   /**
    * Check if an agent is registered on Polygon PoS.
    *
-   * @throws {Error} If ERC8004IdentityRegistry is DEPLOY_PENDING
    */
   async isAgentRegistered(address: Address): Promise<boolean> {
     assertDeployed('ERC8004IdentityRegistry', POLYGON_ADDRESSES.ERC8004IdentityRegistry);
