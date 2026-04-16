@@ -431,6 +431,7 @@ python3 scripts/verify_contracts.py --address 0x3c499c542cEF5E3811e1192ce70d8cC0
 
 | Package | Description | Link |
 |---|---|---|
+| `@vaultfire/langchain` | LangChain/LangGraph integration — 9 tools, 3-line setup | [github.com/Ghostkey316/vaultfire-langchain](https://github.com/Ghostkey316/vaultfire-langchain) |
 | `@vaultfire/agent-sdk` | Core SDK for AI agents | [github.com/Ghostkey316/agent-sdk](https://github.com/Ghostkey316/agent-sdk) |
 | `@vaultfire/x402` | x402 machine-native payments | [github.com/Ghostkey316/vaultfire-x402](https://github.com/Ghostkey316/vaultfire-x402) |
 | `@vaultfire/xmtp` | Trust-gated XMTP messaging | [github.com/Ghostkey316/vaultfire-xmtp](https://github.com/Ghostkey316/vaultfire-xmtp) |
