@@ -442,6 +442,8 @@ python3 scripts/verify_contracts.py --address 0x3c499c542cEF5E3811e1192ce70d8cC0
 | `vaultfire-arbitrum` | Arbitrum deployment (Pre-Deployment) | [github.com/Ghostkey316/vaultfire-arbitrum](https://github.com/Ghostkey316/vaultfire-arbitrum) |
 | `vaultfire-polygon` | Polygon deployment (Deployed) | **This repo** |
 | `vaultfire-solana` | Solana deployment (Pre-Deployment) | [github.com/Ghostkey316/vaultfire-solana](https://github.com/Ghostkey316/vaultfire-solana) |
+| [`@vaultfire/a2a`](https://github.com/Ghostkey316/vaultfire-a2a) | A2A Agent Card enrichment with on-chain Vaultfire trust |
+| [`vaultfire-langgraph-demo`](https://github.com/Ghostkey316/vaultfire-langgraph-demo) | Working LangGraph agent with trust-gated task delegation |
 
 ---
 
