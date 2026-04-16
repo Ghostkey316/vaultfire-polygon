@@ -1,5 +1,8 @@
 # Vaultfire Protocol on Polygon PoS — Know Your Agent (KYA)
 
+
+> **⚠️ Alpha Software** — Vaultfire Protocol is in active development. Smart contracts are deployed on Polygon mainnet but have **not been formally audited** by a third-party security firm. Do not deposit more than you can afford to lose. See [LICENSE](./LICENSE) for warranty disclaimers.
+
 **AI trust infrastructure. On-chain accountability. The first belief-weighted governance on Polygon.**
 
 [![Deployed](https://img.shields.io/badge/status-deployed-brightgreen)](https://github.com/Ghostkey316/vaultfire-polygon)
