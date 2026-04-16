@@ -25,6 +25,7 @@ Vaultfire answers that question with:
 - **Street Cred** — a composable reputation score derived from identity, bonds, and peer ratings
 - **VNS (Vaultfire Name Service)** — human-readable `.vf` names for agent addresses
 - **Belief-weighted governance** — the first governance system weighted by *what agents actually believe*, not token holdings
+- **Zero-Knowledge Proofs (RISC Zero)** — STARK proofs on all 4 chains. Prove trust without revealing data. Dev mode verified, production proving on roadmap.
 - **x402 payments** — machine-native micropayments using USDC on Polygon
 
 Vaultfire is not surveillance infrastructure. It is **accountability infrastructure**. There is a difference.
@@ -55,6 +56,7 @@ Vaultfire is not surveillance infrastructure. It is **accountability infrastruct
 | Anti-Surveillance Module | Deployed |
 | Privacy Guarantees | Deployed |
 | x402 Micropayment Support (USDC) | Deployed |
+| ZK Proofs (RISC Zero) | Deployed — dev mode verified, production proving on roadmap |
 
 ---
 
@@ -91,7 +93,7 @@ Gas on Polygon PoS is paid in **POL** (formerly MATIC, rebranded Q3 2024).
 
 ## Contract Addresses — Polygon PoS (Chain ID: 137)
 
-16 contracts deployed and verified on Polygon PoS.
+17 contracts deployed and verified on Polygon PoS.
 
 | Contract | Address |
 |---|---|
@@ -112,6 +114,7 @@ Gas on Polygon PoS is paid in **POL** (formerly MATIC, rebranded Q3 2024).
 | MissionEnforcement | [`0x6904...6F78`](https://polygonscan.com/address/0x690411685278548157409FA7AC8279A5B1Fb6F78) |
 | AntiSurveillance | [`0xcf64D...aDcB`](https://polygonscan.com/address/0xcf64D815F5424B7937aB226bC733Ed35ab6CaDcB) |
 | PrivacyGuarantees | [`0x2818...7380`](https://polygonscan.com/address/0x281814eF92062DA8049Fe5c4743c4Aef19a17380) |
+| VaultfireTrustAttestation (ZK) | [`0x8568F...9e56`](https://polygonscan.com/address/0x8568F4020FCD55915dB3695558dD6D2532599e56) |
 
 > Deployer: [`0xA054f831B562e729F8D268291EBde1B2EDcFb84F`](https://polygonscan.com/address/0xA054f831B562e729F8D268291EBde1B2EDcFb84F)
 
@@ -352,7 +355,7 @@ This makes governance **epistemically honest** — not just economically rationa
 |---|---|---|
 | Base | Live | [vaultfire-base](https://github.com/Ghostkey316/vaultfire-base) |
 | Avalanche | Live | [vaultfire-avalanche](https://github.com/Ghostkey316/vaultfire-avalanche) |
-| Arbitrum | Pre-Deployment | [vaultfire-arbitrum](https://github.com/Ghostkey316/vaultfire-arbitrum) |
+| Arbitrum | Deployed | [vaultfire-arbitrum](https://github.com/Ghostkey316/vaultfire-arbitrum) |
 | Polygon PoS | Deployed | **This repo** |
 | Solana | Pre-Deployment | [vaultfire-solana](https://github.com/Ghostkey316/vaultfire-solana) |
 
