@@ -117,12 +117,12 @@ describe('POLYGON_ADDRESSES', () => {
   });
 
   it('AIPartnershipBondsV2 is deployed with correct address', () => {
-    assert.equal(POLYGON_ADDRESSES.AIPartnershipBondsV2, '0x0E777878C5b5248E1b52b09Ab5cdEb2eD6e7Da58');
+    assert.equal(POLYGON_ADDRESSES.AIPartnershipBondsV2, '0x83dd216449B3F0574E39043ECFE275946fa492e9');
     assert.ok(isDeployed(POLYGON_ADDRESSES.AIPartnershipBondsV2));
   });
 
   it('AIAccountabilityBondsV2 is deployed with correct address', () => {
-    assert.equal(POLYGON_ADDRESSES.AIAccountabilityBondsV2, '0xfDdd2B1597c87577543176AB7f49D587876563D2');
+    assert.equal(POLYGON_ADDRESSES.AIAccountabilityBondsV2, '0xdB54B8925664816187646174bdBb6Ac658A55a5F');
     assert.ok(isDeployed(POLYGON_ADDRESSES.AIAccountabilityBondsV2));
   });
 
