@@ -38,7 +38,7 @@ import {
 async function main() {
   const agentAddress =
     (process.env['AGENT'] as `0x${string}` | undefined) ??
-    '0xA054f831B562e729F8D268291EBde1B2EDcFb84F'; // default: deployer
+    '0xfA15Ee28939B222B0448261A22156070f0A7813C'; // default: deployer
 
   console.log('Vaultfire Protocol — Street Cred Check on Polygon PoS');
   console.log(`Chain: ${POLYGON_CONFIG.chain} (ID: ${POLYGON_CONFIG.chainId})`);

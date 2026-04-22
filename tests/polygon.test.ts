@@ -80,7 +80,7 @@ describe('POLYGON_CONFIG', () => {
   it('has correct deployer address', () => {
     assert.equal(
       POLYGON_CONFIG.deployer,
-      '0xA054f831B562e729F8D268291EBde1B2EDcFb84F'
+      '0xfA15Ee28939B222B0448261A22156070f0A7813C'
     );
   });
 

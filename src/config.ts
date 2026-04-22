@@ -60,7 +60,7 @@ export const POLYGON_CONFIG: PolygonChainConfig = {
   explorerApi: 'https://api.polygonscan.com/api',
   usdc: '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
   nativeToken: 'POL',
-  deployer: '0xA054f831B562e729F8D268291EBde1B2EDcFb84F',
+  deployer: '0xfA15Ee28939B222B0448261A22156070f0A7813C',
   contracts: POLYGON_ADDRESSES,
 } as const;
 
