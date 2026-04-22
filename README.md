@@ -116,7 +116,7 @@ Gas on Polygon PoS is paid in **POL** (formerly MATIC, rebranded Q3 2024).
 | PrivacyGuarantees | [`0x2818...7380`](https://polygonscan.com/address/0x281814eF92062DA8049Fe5c4743c4Aef19a17380) |
 | VaultfireTrustAttestation (ZK) | [`0x8568F...9e56`](https://polygonscan.com/address/0x8568F4020FCD55915dB3695558dD6D2532599e56) |
 
-> Deployer: [`0xA054f831B562e729F8D268291EBde1B2EDcFb84F`](https://polygonscan.com/address/0xA054f831B562e729F8D268291EBde1B2EDcFb84F)
+> Deployer: [`0xfA15Ee28939B222B0448261A22156070f0A7813C`](https://polygonscan.com/address/0xfA15Ee28939B222B0448261A22156070f0A7813C)
 
 All addresses are stored in [`contracts/addresses.json`](contracts/addresses.json).
 
